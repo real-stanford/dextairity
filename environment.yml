@@ -1,0 +1,29 @@
+name: DextAIRity
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - tqdm
+  - pytorch
+  - torchvision
+  - scipy
+  - cudatoolkit=11.1
+  - imageio
+  - matplotlib
+  - numpy
+  - pip
+  - pybind11
+  - python=3.6
+  - scikit-image
+  - igl
+  - wandb
+  - numba
+  - pip:
+    - h5py
+    - opencv-python
+    - ray[default]
+    - trimesh
+    - dominate
+    - ur_rtde
+    - urx
