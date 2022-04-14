@@ -109,7 +109,7 @@ python train_cloth_unfolding.py \
 python train_cloth_unfolding.py \
   --policy DextAIRity_random_grasp
 
-# Fine-tuning
+# fine-tuning
 python train_cloth_unfolding.py \
   --policy DextAIRity \
   --grasp_checkpoint DextAIRity_fixed \
@@ -122,7 +122,7 @@ Our real world system uses 3 UR5 arms, one equipped with an OnRobot RG2 gripper,
 ![](assets/setup.png)
 - Calibrate ur5 arms and the table via `real_world/calibration_robot.py` and `calibration_table.py`.
 - Setup cloth size and bag size in `real_world/cloth_env.py` and `real_world/bag_env.py`.
-- (Cloth unfolding) Setup stretching primitive variables in `real_world/cloth_env.py`. Please check out check out [FlingBot's repository](https://github.com/columbia-ai-robotics/flingbot) for more details.
+- (Cloth unfolding) Setup stretching primitive variables in `real_world/cloth_env.py`. Please check out [FlingBot's repository](https://github.com/columbia-ai-robotics/flingbot) for more details.
 - (Bag opening) Setup cropping size and color filter parameters in `real_world/bag_env.py`.
 
 ### Evaluate on cloth unfolding in the real world

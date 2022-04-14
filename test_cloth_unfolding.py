@@ -114,7 +114,7 @@ def main(args):
             visualization(args, data_sequence, line_masks, args.visualization_dir, title)
 
         # save all testing file
-        # pickle.dump(data_sequence, open(os.path.join(args.visualization_dir, f'test_data-{batch_id}.pkl'), 'wb'))
+        pickle.dump(data_sequence, open(os.path.join(args.visualization_dir, f'test_data-{batch_id}.pkl'), 'wb'))
 
         wandb_info[f'grasp-cover-percentage/init'].append(np.nanmean(data_sequence[0]['init_cover_percentage']))
         for grasp_step in range(args.grasp_step_num):
