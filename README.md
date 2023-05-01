@@ -15,7 +15,7 @@ RSS 2022
 
 This repository contains code for training and evaluating DextAIRity in both simulation and real-world settings on a three-UR5 robot arm setup for Ubuntu 18.04.
 
-<img src="assets/teaser-cloth.gif" width="490"> <img src="assets/teaser-bag.gif" width="490">
+<img src="assets/teaser-cloth.gif" width="400"> <img src="assets/teaser-bag.gif" width="400">
 
 ## Table of Contents
 - 1 [Simulation](#simulation)
